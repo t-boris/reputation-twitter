@@ -1,0 +1,83 @@
+{
+  "root": 0,
+  "nodes": [
+    {
+      "id": 0,
+      "name": "root",
+      "type": "topic",
+      "total": 1024
+    },
+    {
+      "id": 1,
+      "name": "AI news",
+      "type": "topic",
+      "total": 512
+    },
+    {
+      "id": 2,
+      "name": "Hackathon",
+      "type": "topic",
+      "total": 128
+    },
+    {
+      "id": 3,
+      "name": "Integration",
+      "type": "topic",
+      "total": 128
+    },
+    {
+      "id": 4,
+      "name": "Latest AI tools",
+      "type": "topic",
+      "total": 64
+    },
+    {
+      "id": 5,
+      "name": "Organization",
+      "type": "topic",
+      "total": 64
+    },
+    {
+      "id": 6,
+      "name": "Chat GPT-3",
+      "type": "topic",
+      "total": 64
+    },
+    {
+      "id": 7,
+      "name": "Tweeter analyzer",
+      "type": "topic",
+      "total": 64
+    }
+  ],
+  "relations": [
+    {
+      "parent": 0,
+      "child": 1
+    },
+    {
+      "parent": 0,
+      "child": 2
+    },
+    {
+      "parent": 0,
+      "child": 3
+    },
+    {
+      "parent": 1,
+      "child": 4
+    },
+    {
+      "parent": 2,
+      "child": 5
+    },
+    {
+      "parent": 3,
+      "child": 6
+    },
+    {
+      "parent": 4,
+      "child": 7
+    }
+  ]
+}
